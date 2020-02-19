@@ -8,3 +8,5 @@ topthink/think-migration
 yanwenwu/migration-generator
 
 hbh112233abc/ding-bot
+
+

@@ -14,7 +14,7 @@ return [
     'close'        => false,
     // 全局日志处理 支持闭包
     'processor'    => null,
-
+ 	'type_channel' => ['error'=>'ding',],
     // 日志通道列表
     'channels'     => [
         'file' => [

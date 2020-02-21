@@ -56,3 +56,10 @@ function ptrace($msg, $at =[]){
 	}
 	return $res = $ding->text($content);
 }
+
+if(!function_exists('datetime')){
+    // 方便生成当前日期函数
+    function datetime($str = 'now', $formart = 'Y-m-d H:i:s') {
+        return @date($formart, strtotime($str));
+    }
+}

@@ -25,7 +25,10 @@
         "topthink/think-orm": "^2.0",
         "topthink/think-multi-app": "^1.0",
         "topthink/think-migration": "^3.0",
-        "bingher/ding-bot": "^1.2"
+        "bingher/ding-bot": "^1.2",
+        "atk4/ui": "^2.0",
+        "jaguarjack/migration-generator": "1.0",
+        "doctrine/dbal": "^2.10"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",
